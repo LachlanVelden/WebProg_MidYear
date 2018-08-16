@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Test</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+</head>
+<body>
+
+    <h1>Hello World!</h1>
+
+
+    <button id="btnSubmit">
+        Hello
+    </button>
+
+    <script>
+        $(document).ready(function () {
+            $("#btnSubmit").click(function () {
+                alert("button");
+                $('h1').text('Boo!');
+            });
+        });
+    </script>
+</body>
+</html>

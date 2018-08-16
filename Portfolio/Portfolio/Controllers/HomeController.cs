@@ -13,6 +13,11 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        public IActionResult Javascript()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
